@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content%}
+
+<br><br><br><br>
+
+
+
+<div class="container">
+     <div class="row">
+         <div class="col-sm-4">
+            <a href="{% url 'Webdevelopment' %}" class="thumbnail"><img src="{% static 'app/images/wal2.jpg'%}" width="300px" height="200px">
+	            <center><h4>Web develpoment</h4>
+	            <p>monthly Rs.10,000</p> </center>
+	            <button class="btn btn-primary btn-block ">Appy</button>
+        	 </a>
+        </div>
+         <div class="col-sm-4">
+            <a href="{% url 'cloudcomputing' %}" class="thumbnail"><img src="{% static 'app/images/wal3.jpg'%}" width="300px" height="200px">
+	            <center><h4>Could Computing</h4>
+	            <p>monthlyRs 18,000</p> </center>
+	             <button class="btn btn-primary btn-block ">Apply</button>
+	         </a>
+        </div>
+         <div class="col-sm-4">
+         	<a href="{% url 'Pythonpart' %}" class="thumbnail"><img src="{% static 'app/images/wal4.jpg'%}" style="width:300px; height:200px;">
+	            <center><h4>Python</h4>
+	            <p>monthly Rs.15,000</p> </center>
+	             <button class="btn btn-primary btn-block ">Apply</button>
+	         </a>
+        </div>
+    </div>
+ </div>
+
+<br><br><br><br>
+<br><br><br><br>
+
+
+
+
+
+{{Marks}} {{Answer}} {{Answ}}
+{% endblock %}

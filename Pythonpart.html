@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content%}
+<div style="padding-left:20px; padding-top: 20px; ">
+	<form action='calculate' method='GET'>
+		<h1>{{Question}}</h1>
+		<h3><input type='radio' name='answer' value='a'>{{option_1}}</h3>
+		<h3><input type='radio' name='answer' value='b'>{{option_2}}</h3>
+		<h3><input type='radio' name='answer' value='c'>{{option_3}}</h3>
+		<button type="submit" class="btn btn-primary"> Submit</button>
+	</form>
+</div>
+{% endblock %}

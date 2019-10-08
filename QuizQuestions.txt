@@ -1,0 +1,6 @@
+WEBQUES101: Expantion of HTML? a)Hyper Text Marup Langauge b)Hyper Text Markup Langauge c)Hyper Text Manage Langauge WEBANS101: b)#aaa
+WEBQUES101: Which tag which belongs to <Table> tag? a)<tr> b)<p> c)<title> WEBANS101: a)
+
+pyQues: Which data Type as the key word 'append'? a)Lists b)Tuple c)Dictionary d)Array Pyans: a)
+
+CloudQues: Which one among can be considered for could computing? a)Amazon Web Servers b)Flipkart Service c)Spandeal Service Cloudans: a)
